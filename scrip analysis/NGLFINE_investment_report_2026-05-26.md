@@ -127,28 +127,61 @@ One watch item: CCC expansion of 35 days YoY in FY26 (71→106 days). If debtor 
 
 ---
 
-### 5b. Intrinsic Value
+### 5b. Intrinsic Value — Capacity-Based Forward Model
 
-**Method 1 — DCF:**
-- Base: Revenue CAGR 17%, EBIT margin 15% Year-5, WACC 13%, terminal g 5% → EV ₹955 Cr → **₹1,440/share**
-- Bull: Revenue CAGR 22%, EBIT margin 18%, WACC 12.5% → EV ₹1,310 Cr → **₹2,112/share**
-- Bear: Revenue CAGR 10%, EBIT margin 10% → EV ₹451 Cr → **₹622/share**
-- My base vs. PIE: I assume 17% vs. market's 28% CAGR and 15% vs. 19% margin — both gaps are directionally the same (market too optimistic)
+*Revenue projections are grounded in physical capacity × utilization × realization, not trend extrapolation.*
+
+**Capacity facts (primary sources):**
+- Pre-expansion: 600 MT | FY22 utilization: 90% = 540 MT | Implied blended realization: ₹59 lakh/MT
+- Phase I (+~120–150 MT, now operational): current capacity ~720–750 MT; FY26 back-calculation (₹489 Cr ÷ ₹71 lakh/MT) implies ~685 MT used — **Phase I is already ~95% utilized**
+- Phase II (+~150–180 MT, commissioning Q2 FY27, commercial production H2 FY27): total post-expansion ~900 MT
+- Phase II targets regulated markets (EU/US DMF filings): management guided "10–15% additional margin from regulated market sales" → realization premium ~₹90–100 lakh/MT vs. ₹71 blended today
+
+**Phase II ramp trajectory** (standard regulated pharma greenfield):
+
+| Year | Phase II utilization | Volume added | Revenue at ₹95L/MT |
+|---|---|---|---|
+| H2 FY27 (first 6 months only) | ~25% | ~21 MT | ~₹20 Cr |
+| FY28 (first full year) | ~65% | ~111 MT | ~₹105 Cr |
+| FY29 | ~88% | ~150 MT | ~₹143 Cr |
+| FY30 | ~93% | ~158 MT | ~₹150 Cr |
+
+**Forward revenue and earnings model (consolidated ₹ Cr):**
+
+| Year | Existing capacity | Phase II | **Total revenue** | OPM | NOPAT | FCF |
+|---|---|---|---|---|---|---|
+| FY26A | ₹516 | — | **₹516** | 12% | ₹45 Cr | −₹51 Cr |
+| FY27E | ₹520 | ₹20 | **~₹540** | 13% | ₹67 Cr | −₹18 Cr |
+| FY28E | ₹536 | ₹105 | **~₹641** | 15% | ₹91 Cr | +₹56 Cr |
+| FY29E | ₹553 | ₹143 | **~₹696** | 17% | ₹109 Cr | +₹81 Cr |
+| FY30E | ₹570 | ₹150 | **~₹720** | 17% | ₹113 Cr | +₹90 Cr |
+| FY31E | ₹587 | ₹155 | **~₹742** | 17% | ₹117 Cr | +₹96 Cr |
+
+**Revenue CAGR FY26→FY30: ~8.7% (capacity-constrained)**. The original DCF assumption of 16–18% was too high; the market's PIE assumption of 27–34% is physically impossible on Phase I + Phase II alone. It would require Phase III capex (not yet announced) and/or a dramatic regulated-market mix shift from ~20% to 70%+ of revenue.
+
+**Structural re-rating risk**: By FY29–30, NGL reaches ~90–93% utilization of full 900 MT capacity. If no Phase III announcement by FY28, the growth story pauses and the multiple must compress — a risk entirely absent from the current price.
+
+**Method 1 — DCF (capacity-based):**
+- PV of FCFs (WACC 13%, FY27–FY31): **~₹195 Cr**
+- Terminal value: FY31 NOPAT ₹117 Cr, g = 4% → TV = ₹1,352 Cr → PV = **₹735 Cr**
+- Total EV ₹930 Cr | Less net debt ₹68 Cr → **₹862 Cr equity = ₹1,400/share**
+- Bull (Phase II 90%+ util + regulated mix 40% of revenue): **₹1,840/share**
+- Bear (Phase II delays 2 quarters + margin stays 12%): **₹620/share**
 
 **Method 2 — Owner earnings multiple:**
 - Normalized owner earnings (FY26 NP ₹48 Cr + D&A ₹15 Cr − maintenance capex ₹17 Cr − normalized ΔWC ₹7 Cr) = **₹39 Cr**
-- 20x multiple (10-year avg P/E ~22x; apply slight discount for cyclicality) = ₹780 Cr → **₹1,267/share**
+- 20× multiple (10-year avg P/E ~22×; cyclicality discount) = ₹780 Cr → **₹1,267/share**
 
 **Method 3 — Multiples cross-check:**
-- Current P/E: 36.7x FY26; 10-year avg P/E (FY15–FY26): ~22x → premium of 67%
-- Forward P/E FY27E (₹100–115 EPS, assuming Phase II ramp): 25–29x → expensive even on forward basis
-- EV/EBITDA: ~23–24x vs. Indian pharma API peer average ~15–18x → ~35% premium to peers
-- Implies fair value on EV/EBITDA peer parity: EV ~₹1,120 Cr → **₹1,640/share**
+- Current P/E: 36.7× FY26; 10-year avg P/E ~22× → 67% premium to own history
+- Forward P/E FY27E (~₹85–90 EPS on capacity model): **31–34× — still expensive**
+- EV/EBITDA: ~23–24× vs. Indian pharma API peer average ~15–18× → 35% premium to peers
+- Peer parity fair value: EV ~₹1,120 Cr → **₹1,640/share**
 
-**Value range**: ₹622 (bear) — **₹1,440–1,640 (base)** — ₹2,112 (bull)  
-**Current price**: ₹2,859 — **68–98% premium to base estimate**  
-**Required price for 30% MoS (narrow moat)**: ₹1,440 × 0.70 = **₹1,008** (DCF base) | ₹1,640 × 0.70 = **₹1,148** (multiples)  
-**MoS gate**: ❌ **FAILED** — current price is 148–183% above the MoS gate price
+**Value range**: ₹620 (bear) — **₹1,400–1,640 (base)** — ₹1,840 (bull)
+**Current price**: ₹2,859 — **74–104% premium to base**
+**Required price for 30% MoS (narrow moat)**: ₹1,400 × 0.70 = **₹980** | ₹1,640 × 0.70 = **₹1,148**
+**MoS gate**: ❌ **FAILED** — current price is 149–192% above the MoS gate price
 
 ---
 
